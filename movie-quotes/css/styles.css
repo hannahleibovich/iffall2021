@@ -1,0 +1,40 @@
+h1 {
+    font-size: 45px;
+    font-family: Calibri;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    font-family: Calibri;
+    font-weight: normal;
+    line-height: 7px;
+}
+
+.venkman {
+    color:dodgerblue;
+}
+
+.barrett {
+    color:green;
+}
+
+.mayor {
+    color:indianred;
+}
+
+.stantz {
+    color:indigo;
+}
+
+.spengler {
+    color:mediumvioletred;
+}
+
+.zeddemore {
+    color:olive;
+}
+
+.actions {
+    color:darkorange;
+}
