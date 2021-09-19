@@ -11,6 +11,7 @@ h1 {
     font-weight: bold;
     font-size: 25pt;
     line-height: .3em;
+    color:darkblue;
 }
 
 h2 {
@@ -21,7 +22,7 @@ h2 {
 h3 {
     font-size: 15pt;
     line-height: .3em;
-    color: grey;
+    color: cornflowerblue;
     margin-left: 25px;
     margin-bottom: 5px;
 }
