@@ -1,0 +1,109 @@
+html { 
+    font-family: 'Merriweather', serif;
+    font-size: 15pt;
+    /* line-height: 1.2; */
+    margin-left: 50px;
+    margin-top: 25px;
+    
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 25pt;
+    line-height: .3em;
+}
+
+h2 {
+    font-size: 18pt;
+    line-height: 1.25em;
+}
+
+h3 {
+    font-size: 15pt;
+    line-height: .3em;
+    color: grey;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+p { 
+    font-size: 13pt;
+    line-height: 1.2em;
+    margin-left: 25px;
+}
+
+#normal-weight {
+    font-weight: normal;
+}
+
+#bold {
+    font-weight: 900;
+}
+
+#font-size {
+    font-size: 20pt;
+    line-height: .5em;
+    margin-bottom: 25px;
+    margin-left: 0px;
+}
+
+#dash {
+    font-weight: bold;
+    font-size: 25pt;
+    color: grey;
+    margin-left: 25px;
+    margin-bottom: 0px;
+}
+
+.font-style {
+    margin-top: 50px;
+}
+
+#italic {
+    font-style: italic;
+}
+
+#wide {
+    letter-spacing: .5em;
+}
+
+#tight {
+    letter-spacing: -.075em;
+}
+
+.letter-spacing {
+    margin-top: 50px;
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+#line-through {
+    text-decoration: line-through;
+}
+
+#overline {
+    text-decoration: overline;
+}
+
+.text-decoration {
+    margin-top: 50px;
+}
+
+#uppercase {
+    text-transform: uppercase;
+}
+
+#lowercase {
+    text-transform: lowercase;
+}
+
+#capitalize {
+    text-transform: capitalize;
+}
+
+.text-transform {
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
