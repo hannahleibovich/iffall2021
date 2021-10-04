@@ -1,0 +1,19 @@
+html {
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 30pt;
+}
+
+h2 {
+    font-size: 24pt;
+    padding-top: 25px;
+}
+
+img {
+    padding: 15px;
+}
