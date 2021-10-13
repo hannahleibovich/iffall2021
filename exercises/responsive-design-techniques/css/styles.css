@@ -1,0 +1,50 @@
+body {
+    max-width: 800px;
+    width: 90%;
+    margin: auto;
+}
+
+@media (min-width: 640px) {
+    body {
+    background-color: #eaf6ff;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    h1 {
+    font-size: 1.5rem;
+    }
+}
+
+ul {
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 1rem -10px 1rem -10px;
+}
+
+aside {
+    width: 170px;
+    margin: 10px;
+    font-size: 0.8rem;
+}
+
+.stretchable-grid-items {
+    width: 100%;
+}
+
+@media (min-width: 480px) {
+    .stretchable-grid-items {
+        width: 480px
+    }
+}
+
+@media (min-width: 640px) {
+    .stretchable-grid-items {
+        width: 25%;
+    }
+}
