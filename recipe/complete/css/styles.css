@@ -1,0 +1,289 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    width: 264px;
+    margin-left: 25px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 37px;
+    color: #000000;
+    margin-top: 20px;
+    position: relative;
+
+}
+
+h2 {
+    width: 238px;
+    margin-left: 25px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 17px;
+    color: #8B4513;
+    margin-top: 10px;
+
+}
+
+img {
+    width: 100%;
+    position: relative;
+}
+
+.prep-info {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+#prep {
+    padding: 0 10px 0 10px;
+    width: 70px;
+    height: 39px;
+    left: 19px;
+    top: 295px;
+    margin-top: -50px;
+}
+
+#cook {
+    padding: 0 10px 0 10px;
+    width: 70px;
+    height: 39px;
+    left: 106px;
+    top: 295px;
+    margin-top: -50px;
+}
+
+#time {
+    padding: 0 10px 0 10px;
+    width: 70px;
+    height: 39px;
+    left: 197px;
+    top: 295px;
+    margin-top: -50px;
+}
+
+#yield {
+    padding: 0 10px 0 10px;
+    width: 78px;
+    height: 39px;
+    left: 283px;
+    top: 295px;
+    margin-top: -50px;
+}
+
+.prep-info {
+    display: flex;
+    flex: wrap;
+    margin: 75px 10px 0 10px;
+}
+
+.summary {
+    width: 307px;
+    margin-left: 25px;
+    top: 360px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.ingredients h3 {
+    width: 170px;
+    margin-left: 25px;
+    top: 483px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #8B4513;
+
+}
+
+.ingredients h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+#cheesecake {
+    width: 225px;
+    margin-left: 25px;
+    top: 533px;
+}
+
+#samoa-topping {
+    width: 252px;
+    margin-left: 25px;
+    top: 775px;
+}
+
+ul {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    color: #000000;
+}
+
+#list-one {
+    width: 300px;
+    margin-left: 25px;
+    top: 576px;
+}
+
+#list-two {
+    width: 300px;
+    margin-left: 25px;
+    top: 818px;
+}
+
+.baking-tips h3 {
+    width: 252px;
+    height: 28px;
+    margin-left: 25px;
+    top: 960px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.baking-tips ul {
+    width: 300px;
+    margin-left: 25px;
+    top: 1003px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.instructions h3 {
+    width: 181px;
+    height: 41px;
+    margin-left: 25px;
+    top: 1240px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #8B4513;
+}
+
+.instructions ul {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    color: #000000;
+    margin-top: 25px;
+    list-style:none;
+    columns: 2;
+    column-width: 400px;
+    list-style-position: inside;
+    margin-right: 25px;
+}
+
+.instructions ul li {
+    margin-bottom: 20px;
+    width: 50%px;
+    float: left;
+}
+
+@media (min-width: 640px) {
+    .header img {
+        width: 70%;
+        float: right;
+        padding-left: 30%;
+        margin-top: 0px;
+        padding: 0 0 20px 20px;
+    }
+
+    h1 {
+        font-size: 60px;
+        line-height: 60px;
+        margin-bottom: 30px;
+    }
+
+    /*.header-text {
+        width: 30%;
+    }*/
+
+    h2 {
+        font-size: 30px;
+        width:300px;
+        line-height: 30px;
+    }
+
+    .prep-info {
+        font-size: 15pt;
+        line-height: 15pt;
+        margin-left: 20px;
+        margin-bottom: 35px;
+    }
+
+    .summary {
+        font-size: 13pt;
+        line-height: 18pt;
+        width: 450px;
+    }
+
+    .ingredients {
+        margin-left: 40px;
+        margin-top: 150px;
+    }
+
+    .ingredients h3 {
+        font-size: 30px;
+    }
+
+    .baking-tips {
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+
+    .instructions {
+        position: absolute;
+        /*width: 181px;*/
+        height: 41px;
+        left: 509px;
+        top: 641px;
+    }
+
+    .instructions h3 {
+        font-size: 30px;
+        margin-top: -25px;
+    }
+
+    li {
+        line-height: 20px;
+    }
+
+    .instructions img {
+        width: 75%;
+        align-content: center;
+    }
+    
+    #bottom-image {
+        padding-bottom: 30px;
+    }
+}
