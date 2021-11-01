@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Buttons &mdash; Hannah Leibovich</title>
+
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://use.typekit.net/qat2ayh.css">
+		<link rel="stylesheet" href="https://use.typekit.net/qat2ayh.css">
+
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<script src="https://kit.fontawesome.com/3c5a4a3348.js" crossorigin="anonymous"></script>
+		
+		<style>
+
+			body {
+				color: #333;
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+
+			main {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				width: 300px;
+				height: 300px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+			a#btn_apple {
+				display: inline-block;
+				height: 100px;
+				width: 100px;
+				box-sizing: border-box;
+				border-radius: 3px;
+				margin: auto;
+				margin-top: 80px;
+				padding: 8px 100px 20px 40px;
+				background-color: #fff;
+				border: 2px solid #7D7D7D;
+				color: #7D7D7D;
+				font-size: 20px;
+				font-family: 'Helvetica', sans-serif;
+				font-weight: 400;
+				text-decoration: none;
+				transition: all .5s;
+			}
+
+			a#btn_apple:hover {
+				background-color: #7D7D7D;
+				border: 2px solid #fff;
+				color: #fff;
+			}
+
+			a#btn_harleydavidson {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #000;
+				border: 3px solid orange;
+				color: #fff;
+				font-size: 20px;
+				font-family: jaf-bernino-sans-comp,sans-serif;
+				font-weight: 600;
+				font-style: normal;
+				text-decoration: none;
+				transition: all .5s;
+			}
+
+			a#btn_harleydavidson:hover {
+				background-color: orange;
+				border: 2px solid #000;
+				color: #fff;
+			}
+
+			a#btn_lyft {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 30px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 60px 40px;
+				background-color: #FF00BF;
+				color: #fff;
+				font-size: 20px;
+				transition: all .5s;
+			}
+
+			a#btn_lyft:hover {
+				background-color: #fff;
+				color: #FF00BF;
+			}
+
+			a#btn_tonightshow {
+				display: inline-block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 20px;
+				background-color: #232f3e;
+				padding-left: 18px;
+				color: #fff;
+				font-size: 20px;
+				font-weight: 600;
+				line-height: 100%;
+				transition: all .20s;
+				text-decoration: none;
+				text-align: left;
+				align-content: center;
+			}
+
+			a#btn_tonightshow:hover {
+				background-color: #fff;
+				color: #000;
+				border: 2px solid #000;
+			}
+
+			a#btn_nike {
+				display: inline-block;
+				height: 100px;
+				width: 100px;
+				box-sizing: border-box;
+				border-radius: 3px;
+				margin: auto;
+				margin-top: 80px;
+				padding: 10px 150px 0 40px;
+				color: #000;
+				font-size: 60px;
+				font-family: futura-pt-condensed, sans-serif;
+				font-weight: 800;
+				font-style: italic;
+				text-decoration: none;
+				transition: all .5s;
+			}
+
+			a#btn_nike:hover {
+				background-color: #000;
+				color: #fff;
+			}
+
+			a#btn_garden {
+				display: inline-block;
+				height: 100px;
+				width: 100px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 80px;
+				padding: 10px 150px 0 40px;
+				color: darkgreen;
+				font-size: 20px;
+				line-height: 140%;
+				text-align: center;
+				font-family: haboro-contrast-normal, sans-serif;
+				font-weight: 400;
+				font-style: normal;
+				text-decoration: none;
+				transition: all .5s;
+			}
+
+			a#btn_garden:hover {
+				line-height: 200%;
+			}
+
+			a#btn_tesla {
+				display: inline-block;
+				height: 100px;
+				width: 100px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 80px;
+				padding: 10px 80px 0 0;
+				margin-left: -50px;
+				color: red;
+				font-size: 50px;
+				text-align: center;
+				font-family: eurostile, sans-serif;
+				font-weight: 500;
+				font-style: normal;
+				text-decoration: none;
+				transition: all .5s;
+			}
+
+			a#btn_tesla:hover {
+				font-style: italic;
+				letter-spacing: .1em;
+			}
+
+			a#btn_moo {
+				display: inline-block;
+				height: 100px;
+				width: 100px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 80px;
+				padding: 10px 40px 0 0;
+				margin-left: -20px;
+				color:cadetblue;
+				font-size: 50px;
+				text-align: center;
+				font-family: poppins, sans-serif;
+				font-weight: 500;
+				font-style: normal;
+				text-decoration: none;
+				transition: all .5s;
+			}
+
+			a#btn_moo:hover {
+				font-size: 75px;
+				color:#232f3e;
+			}
+
+			a#btn_fitbit {
+				display: inline-block;
+				height: 100px;
+				width: 100px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 80px;
+				padding: 10px 40px 0 0;
+				margin-left: -20px;
+				color:grey;
+				font-size: 50px;
+				text-align: center;
+				font-family: poppins, sans-serif;
+				font-weight: 500;
+				font-style: normal;
+				text-decoration: none;
+				transition: all .5s;
+			}
+
+			a#btn_fitbit:hover {
+				font-size: 50px;
+				letter-spacing: .1em;
+				color: #000;
+			}
+
+			a#btn_npr {
+				display: inline-block;
+				height: 100px;
+				width: 100px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 80px;
+				padding: 15px 40px 0 20px;
+				color:#000;
+				font-size: 50px;
+				text-align: center;
+				font-family: franklin-gothic-urw, sans-serif;
+				font-weight: 700;
+				font-style: normal;
+				text-decoration: none;
+				transition: all .5s;
+				background-color: crimson;
+				letter-spacing: -.1em;
+			}
+
+			a#btn_npr:hover {
+				font-size: 50px;
+				color:mediumblue;
+				background-color:cornflowerblue;
+			}
+
+			a#btn_newyorker {
+				display: inline-block;
+				height: 100px;
+				width: 100px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 45px;
+				padding: 0px 60px 30px 0px;
+				margin-left: -25px;
+				color:#000;
+				font-size: 50px;
+				text-align: center;
+				font-family: minerva-modern, sans-serif;
+				font-weight: 700;
+				font-style: normal;
+				text-decoration: none;
+				transition: all .5s;
+			}
+
+			a#btn_newyorker:hover {
+				font-size: 50px;
+				box-shadow: #000;
+				line-height: 70%;
+			}
+
+			a#btn_instagram {
+				display: inline-block;
+				height: 100px;
+				width: 100px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 80px;
+				padding: 0px 30px 30px 0px;
+				margin-left: 10px;
+				color:rgb(233, 44, 148);
+				transition: all .5s;
+			}
+
+			a#btn_instagram:hover {
+				color: rgba(156, 15, 221);
+				box-shadow:darkviolet;
+
+			}
+
+			a#btn_hsn {
+				display: inline-block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 80px;
+				padding-top: 25px;
+				background-color: #56cdf1;
+				padding-left: 10px;
+				color: #fff;
+				font-family: paralucent, sans-serif;
+				font-weight: 700;
+				font-style: normal;
+				font-size: 40px;
+				font-weight: 600;
+				transition: all .5s;
+				text-decoration: none;
+				text-align: left;
+			}
+
+			a#btn_hsn:hover {
+				background-color: #232f3e;
+				color: #56cdf1;
+			}
+
+			a#btn_electra {
+				display: inline-block;
+				position: relative;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: deepskyblue;
+				font-family: yellowtail, sans-serif;
+				font-size: 40px;
+				font-weight: 400;
+				font-style: normal;
+				text-decoration: none;
+				transition: all .2s;
+			}
+
+			a#btn_electra:before {
+				content: "";
+				display: block;
+				width: 0;
+				height: 0;
+				z-index: 1;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				background-color:dimgrey;
+				transition: all .5s;
+			}
+
+			a#btn_electra:hover {
+				color:#fff;
+				z-index: 11;
+			}
+
+			a#btn_electra:hover:before {
+				width: 100%;
+				height: 100%;
+				left: 0;
+				top: 0;
+			}
+
+			a#btn_electra span {
+				position: relative;
+				z-index: 11;
+			}
+
+			a#btn_colorrun {
+				display: inline-block;
+				height: 100px;
+				width: 100px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 50px;
+				padding: 10px 40px 0 0;
+				margin-left: -20px;
+				color:cornflowerblue;
+				font-size: 50px;
+				text-align: center;
+				font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+				font-weight: 600;
+				font-style: normal;
+				text-decoration: none;
+				transition: all .5s;
+				line-height: 90%;
+			}
+
+			a#btn_colorrun:hover {
+				font-size: 50px;
+				color:gold;
+			}
+
+			a#btn_colorrun:hover span {
+				letter-spacing: .1em;
+			}
+
+			a#btn_mollyjogger {
+				display: inline-block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 80px;
+				padding-top: 25px;
+				margin-left: -10px;
+				color:olivedrab;
+				font-family: yellowtail, sans-serif;
+				font-weight: 500;
+				font-style: normal;
+				font-size: 30px;
+				transition: all .5s;
+				text-decoration: none;
+				text-align: left;
+			}
+
+			a#btn_mollyjogger:hover {
+				transform:rotate(45deg);
+			}
+
+			a#btn_foreflight {
+				display: inline-block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 80px;
+				padding-top: 25px;
+				margin-left: -35px;
+				color:royalblue;
+				font-family: helvetica, sans-serif;
+				font-weight: 500;
+				font-style: normal;
+				font-size: 30px;
+				transition: all .5s;
+				text-decoration: none;
+				text-align: left;
+			}
+
+			a#btn_foreflight:hover {
+				letter-spacing: .1em;
+			}
+
+			a#btn_foreflight:hover i {
+				transform:rotate(-45deg);
+			}
+
+			a#btn_foreflight i {
+				margin-left: 40px;
+				color:powderblue
+			}
+
+			a#btn_tuckerallen {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #2f4b6e;
+				border: 3px solid orange;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Times New Roman', Times, serif;
+				font-weight: 700;
+				font-style: normal;
+				text-decoration: none;
+				transition: all .5s;
+			}
+
+			a#btn_tuckerallen:hover {
+				background-color: white;
+				border: 2px solid white;
+				color: #2f4b6e;
+			}
+
+			a#btn_bissingers {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 100px;
+				margin-left: -10px;
+				padding: 10px 40px 0 40px;
+				color: #d6aa59;
+				font-size: 40px;
+				font-family: cabazon, serif;
+				font-weight: 400;
+				font-style: normal;
+				text-decoration: none;
+				transition: all .9s;
+			}
+
+			a#btn_bissingers:hover {
+				font-size: 55px;
+			}
+
+			a#btn_samsung {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 105px;
+				padding: 8px 30px 0 30px;
+				background-color: #000000;
+				color: #fff;
+				font-size: 18px;
+				font-family: itc-avant-garde-gothic-pro, sans-serif;
+				font-weight: 500;
+				font-style: normal;
+				text-decoration: none;
+			}
+
+			a#btn_samsung:hover {
+				color: #000;
+				/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+				background: rgb(116, 116, 116); /* Old browsers */
+				background: -moz-linear-gradient(-45deg,  rgb(255, 255, 255) 0%, rgb(71, 71, 71) 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(-45deg,  rgba(255, 255, 255) 0%,rgba(71, 71, 71) 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(135deg,  rgba(255, 255, 255) 0%,rgba(71, 71, 71) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+			}
+
+
+		</style>
+	</head>
+	<body>
+		
+		<main>
+
+			<h1>Button Styling &mdash; Hannah Leibovich</h1>
+			
+            <div class="button_container">
+				<a href="https://www.apple.com/" target="_blank" id="btn_apple"> <i class="fab fa-apple fa-4x"></i> </a>
+			</div>
+
+            <div class="button_container">
+				<a href="https://www.harley-davidson.com/us/en/index.html" target="_blank" id="btn_harleydavidson">HARLEY DAVIDSON</a>
+			</div>
+
+            <div class="button_container">
+				<a href="https://www.lyft.com/" target="_blank" id="btn_lyft"><i class="fab fa-lyft fa-3x"></i></a>
+			</div>
+
+            <div class="button_container">
+				<a href="https://www.nbc.com/the-tonight-show" target="_blank" id="btn_tonightshow">The <br> Tonight <br> Show</a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.instagram.com/" target="_blank" id="btn_instagram"><i class="fab fa-instagram fa-5x"></i></a>
+			</div>
+
+            <div class="button_container">
+				<a href="http://www.nike.com/us/en_us/" target="_blank" id="btn_nike">Nike</a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.samsung.com/us/" target="_blank" id="btn_samsung">Samsung</a>
+			</div>
+
+            <div class="button_container">
+				<a href="https://www.tesla.com/" target="_blank" id="btn_tesla">TESLA</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.mollyjogger.com/" target="_blank" id="btn_mollyjogger">Mollyjogger</a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://electra.trekbikes.com/us/en_US/" target="_blank" id="btn_electra"><span>Electra</span></a>
+			</div>
+
+            <div class="button_container">
+				<a href="https://www.fitbit.com/global/us/home" target="_blank" id="btn_fitbit">fitbit</a>
+			</div>
+
+            <div class="button_container">
+				<a href="https://www.npr.org/" target="_blank" id="btn_npr">npr</a>
+			</div>
+
+            <div class="button_container">
+				<a href="http://www.newyorker.com/" target="_blank" id="btn_newyorker">the New Yorker</a>
+			</div>
+
+            <div class="button_container">
+				<a href="https://www.hsn.com/" target="_blank" id="btn_hsn">HSN</a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.moo.com/us/" target="_blank" id="btn_moo">MOO</a>
+			</div>
+
+            <div class="button_container">
+				<a href="https://thecolorrun.com/" target="_blank" id="btn_colorrun">THE <span style="color:deeppink">COLOR</span> RUN</a>
+			</div>
+
+            <div class="button_container">
+				<a href="http://www.foreflight.com/" target="_blank" id="btn_foreflight">ForeFlight<i class="fas fa-plane"></i></a>
+			</div>
+
+            <div class="button_container">
+				<a href="https://tuckerallen.com/" target="_blank" id="btn_tuckerallen">TuckerAllen</a>
+			</div>
+
+            <div class="button_container">
+				<a href="https://www.bissingers.com/" target="_blank" id="btn_bissingers">Bissinger's</a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.missouribotanicalgarden.org/" target="_blank" id="btn_garden">MISSOURI BOTANICAL GARDEN</a>
+			</div>
+
+		</main>	
+
+	</body>
+</html>
