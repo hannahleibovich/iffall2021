@@ -1,0 +1,63 @@
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 32pt;
+    margin-left: 25pt;
+    color: black;
+    text-decoration: none;
+}
+
+.map img {
+    width: 30%;
+    margin-left: 125px;
+    float: left;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    font-family: 'Alata', sans-serif;
+    text-decoration: none;
+    line-height: 40px;
+    float: left;
+    text-align: center;
+}
+
+ul a {
+    color: black;
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
+    line-height: 22px;
+    width: 90%;
+    padding-top: 20px;
+}
+
+h2 {
+    font-family: 'Alata', sans-serif;
+    margin-left: 315px;
+}
+
+#art-photos, #sculpture-photos, #architecture-photos, #fashion-photos, #motionpicture-photos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#art-photos img, #sculpture-photos img, #architecture-photos img, #fashion-photos img, #motionpicture-photos img {
+    width: 300px;
+    padding: 0 20px 20px 0;
+}
+
+#visual-art, #sculpture, #architecture, #fashion, #motion-pictures {
+    margin-left: 315px;
+    width: 650px;
+}
+
+h1 a {
+    color: black;
+    text-decoration: none;
+}
+
