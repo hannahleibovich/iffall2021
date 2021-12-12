@@ -1,0 +1,32 @@
+html{ 
+    text-align: center;
+    margin-top: 100px;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal; 
+    color:papayawhip;
+    background-color: cornflowerblue;  
+}
+
+h1 {
+    font-size: 45pt;  
+}
+
+h2 {
+    font-size: 20pt;
+}
+
+a {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-decoration: none;
+    color:papayawhip;
+}
+
+a:hover {
+    font-style: italic;
+}
+
+div {
+    margin-top: 150px;
+}
